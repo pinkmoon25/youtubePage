@@ -9,12 +9,12 @@
   <body>
     <header>
       <div class="logoSection">
-        <button class="topLeft">&#9776;</button>
+        <button class="topLeft" style="border: none; border-radius: 2px;">&#9776;</button>
         <img class="logo" src="images/YouTube-Logo-700x394.png" alt="youtube logo">
       </div>
       <div class="inputSection">
-        <input type="text" placeholder="search" style="padding: 5px 8px; font-size: 25px;">
-        <input type="button" value="&#128269;" style="padding: 5px 8px;">
+        <input type="text" placeholder="search" style="padding: 5px 8px; font-size: 25px; border-radius: 5px; border: 1px solid gray;">
+        <input type="button" value="&#128269;" style="padding: 5px 8px; border: none; border-radius: 2px;">
         <button style="border-radius: 50%; border: none; font-size: 25px;">&#127897;</button>
       </div>
       <div>
@@ -47,7 +47,7 @@
       </aside>
       <section class="video">
         <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/DWuAn6C8Mfc" title="YouTube video player" frameborder="0" 
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/DWuAn6C8Mfc" title="YouTube video player" frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
           </iframe>
           <p class="video-title"> Radiohead - In Rainbows From the Basement (April 2008) </p>
@@ -61,19 +61,26 @@
             </div>
           </div>
           <section class="artist">
-          <div class="video-artist">
-            <h2><logo class="artist-logo">&#9415;</logo> Radiohead &#127925;</h2>
-            <p>2.88M subscribers</p>
-          </div>
-        </section> 
+            <div class="video-artist">
+              <img class="artist-logo" width="48px" height="48px" src="images/radioheadlogo.jpg" style="border-radius: 50%;">
+              <div class="artist-details">
+                <h2 class="artist-name">Radiohead &#9834;</h2>
+                <p class="subscribers">2.88M subscribers</p>
+              </div>
+            </div>
+            <button class="subscribe-btn"> SUBSCRIBE </button>
+          </section>
+          <p> Recorded at The Hospital Club, London in April 2008.</p> 
         </div>
       </section>
-      <aside class="sidebar">
-        <a href="#"><img src="images/youtube.jpg" alt="thumbnail image from youtube" width="200px"></a>
-        <a href="#"><img src="images/youtubehqdefault.jpg" alt="thumbnail image from youtube" width="200px"></a>
-        <a href="#"><img src="images/youtubhqdefault.jpg" alt="thumbnail image from youtube" width="200px"></a>
-        <a href="#"><img src="images/youtuhqdefault.jpg" alt="thumbnail image from youtube" width="200px"></a>
-      </aside>
+      <section class="recommendation">
+        <aside class="sidebar">
+          <a href="#"><img src="images/youtube.jpg" alt="thumbnail image from youtube" width="200px"></a>
+          <a href="#"><img src="images/youtubehqdefault.jpg" alt="thumbnail image from youtube" width="200px"></a>
+          <a href="#"><img src="images/youtubhqdefault.jpg" alt="thumbnail image from youtube" width="200px"></a>
+          <a href="#"><img src="images/youtuhqdefault.jpg" alt="thumbnail image from youtube" width="200px"></a>
+        </aside>
+      </section>
     </section>
   </body>
 </html>

@@ -2,6 +2,7 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 li{
@@ -39,8 +40,8 @@ header{
 
 a{
   text-decoration: none;
-  color: #f7f7f7;
-  font-size: 20px;
+  color: #030303;
+  font-size: 18px;
   line-height: 35px;
   transition: 0.3s ease;
 }
@@ -54,22 +55,14 @@ a:hover{
 .navbar{
   width: max-content;
   padding-right: 20px;
-  background-color:rgb(0, 0, 0, 0.9);
+  background-color:rgb(255, 255, 255);
   display: flex;
   border-radius: 0 5px 5px 0;
 }
 .video{
   width: 100%;
-  margin: 0 15px;
-}
-
-.video-container{
-  margin: 50px 5px 0;
-  width: 100%;
-}
-
-iframe{
-  width: inherit;
+  margin: 0 25px 0 15px;
+  padding: 50px 0 0 0;
 }
 
 .video-title{
@@ -87,7 +80,7 @@ iframe{
 
 .video-text{
   font-size: 15px;
-  color: rgb(78, 78, 78);
+  color: #606060;
 }
 
 .video-buttons{
@@ -111,7 +104,7 @@ iframe{
 .sidebar{
   display: flex;
   flex-direction: column;
-  margin: 20px 50px 10px 0;
+  margin: 20px 35px 10px 0;
   gap: 15px;
 }
 
@@ -124,4 +117,43 @@ button{
 button:hover{
   transform: scale(1.2);
   cursor: pointer;
+}
+
+.video-artist{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.artist{
+  padding: 18px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscribe-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color:#f7f7f7;
+  background-color: rgb(205 59 53);
+  width: 110px;
+  border: none;
+  border-radius: 3px;
+}
+
+.artist-name{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.subscribers{
+  margin: 0;
+  font-size: 13px;
+  color: #606060;
 }
