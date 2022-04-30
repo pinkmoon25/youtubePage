@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style-type: none;
+}
+
+.logo{
+  width: 100px;
+  height: 50px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.logoSection{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.inputSection{
+  display: flex;
+  gap: 10px;
+}
+
+.icons{
+  border: none;
+  background: #fff;
+  margin: 0 25px;
+}
+
+a{
+  text-decoration: none;
+  color: #f7f7f7;
+  font-size: 20px;
+  line-height: 35px;
+  transition: 0.3s ease;
+}
+
+a:hover{
+  color: skyblue;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.navbar{
+  width: max-content;
+  padding-right: 20px;
+  background-color:rgb(0, 0, 0, 0.9);
+  display: flex;
+  border-radius: 0 5px 5px 0;
+}
+.video{
+  width: 100%;
+  margin: 0 15px;
+}
+
+.video-container{
+  margin: 50px 5px 0;
+  width: 100%;
+}
+
+iframe{
+  width: inherit;
+}
+
+.video-title{
+  font-size: 18px;
+  color: rgb(3,3,3);
+  font-weight: 600;
+}
+
+.video-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.video-text{
+  font-size: 15px;
+  color: rgb(78, 78, 78);
+}
+
+.video-buttons{
+  background-color: #fff;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.video-buttons:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px 10px 0;
+  gap: 15px;
+}
+
+button{
+  transition: 0.3s ease;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+button:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
